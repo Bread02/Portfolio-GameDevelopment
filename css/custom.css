@@ -1,0 +1,167 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: CourierPrime;
+    src: url(../assets/fonts/CourierPrime/CourierPrime-Regular.ttf);
+}
+
+@font-face {
+    font-family: CourierPrimeBold;
+    src: url(../assets/fonts/CourierPrime/CourierPrime-Bold.ttf);
+}
+
+
+#main_text {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: OpenSans;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    pointer-events: none;
+}
+
+.card-title {
+    font-family: OpenSans;
+    font-size: 31px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
+.PageName
+{
+    font-family: CourierPrimeBold;
+    font-size: 31px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 2px;
+    text-align: center;  
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, .125);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(5, 5, 29);
+    font-family: OpenSans;
+
+}
+
+.row {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card-body h3 {
+
+    font-family: CourierPrime;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.card-body h4 {
+
+    font-family: OpenSans;
+    font-size: 22px;
+}
+
+.card-body h5 {
+
+    font-family: OpenSans;
+    font-size: 22px;
+}
+
+.card-body p {
+
+    font-family: OpenSans;
+    font-size: 16px;
+}
+
+.navtitle h1 {
+    font-family: CourierPrimeBold;
+    font-size: 31px;
+    margin: 0;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+.navtitle h3 {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+    font-family: CourierPrimeBold;
+}
+.navtitle p {
+    font-size: 7px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 3px;
+    
+}
+
+.nav-item
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: OpenSans;
+}
+
+.navbar_bg {
+    background-color:rgb(3, 3, 85);
+    border-width: 0px;
+    min-height: 70px; 
+}
+
+/* The nav bar text color and font */
+.navbar-nav>li>a {
+    color: white;
+      font-family: OpenSans;
+
+}
+
+/* When a nav item is active, hovering and focus will have no color change effect. bg = background */
+.navbar_bg .navbar-nav .nav-item>.active,
+.navbar_bg .navbar-nav>.active>a:focus,
+.navbar_bg .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: indigo;
+    font-family: OpenSans;
+}
+
+/* The nav bar text color when we hover over or focus */
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:hover {
+    color: red;
+    font-family: OpenSans;
+
+}
+
+/* The nav bar text color when we click */
+.navbar-nav>li>a:focus {
+    color: darkred;
+    font-family: OpenSans;
+
+}
+
+.footer
+{
+    color: white;
+    background-color:rgb(3, 3, 85);
+    font-size: 18px;
+    text-align: center;
+    font-family: OpenSans;
+}
